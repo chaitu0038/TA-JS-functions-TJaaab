@@ -1,6 +1,10 @@
 /*
 1. Create a function named `sayHello` that that accepts a parameter `name` and alert `Hello [name]!`.
 */
+function sayHello() {
+  let name = prompt(`Enter the name`);
+  alert(`Hello ${name}!`);
+}
 
 /*
 2. Create a function named `getFullName` that accepts two parameter `firstName` and `lastName` and returns
@@ -10,6 +14,13 @@ Example:
   getFullName("John", "Snow"); // "John Snow"
   getFullName("Nelson", "Mandela"); // "Nelson Mandela"
 */
+function getFullName() {
+  let firstName = prompt(`Enter Your firstName`);
+  let lastName = prompt(`Enter Your lastName`);
+  return `${firstName} ${lastName}`;
+}
+
+getFullName();
 
 /*
 3. Create a function named `addTwoNumbers` that accepts two numbers i.e `firstNum` and `secondNum` and returns
@@ -20,6 +31,12 @@ addTwoNumbers(10, 22); // 32
 addTwoNumbers(20, 32); // 32
 addTwoNumbers(10, "100"); // Alert Enter Valid Input
 */
+function addTwoNumbers() {
+  let firstNum = +prompt('Enter first number');
+  let secondNum = +prompt('Enter second num');
+  let sum = firstNum + secondNum;
+  return `${sum}`;
+}
 
 /*
 4. Create a function named `calc` which accepts three parameter `numA`, `numB` and `operation`. Operation
