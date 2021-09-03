@@ -41,6 +41,10 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
+let adds = 1;
+function addOne(number, adds) {
+  return number + adds;
+}
 
 // - Write a Function Expression
 
