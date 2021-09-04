@@ -181,10 +181,31 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
+function num(x , y) {
+  if (x > y) {
+    return true;
+  } else (x < y) {
+    return false;
+  }
+}
 
 // - Write a Function Expression
+let num = function num(x , y) {
+  if (x > y) {
+    return true;
+  } else (x < y) {
+    return false;
+  }
+}
 
 // - Write an Arrow Function without curly brackets(if possible)
+let num = function num(x , y) => {
+  if (x > y) {
+    return true;
+  } else (x < y) {
+    return false;
+  }
+};
 
 // - Write an Arrow Function with curly brackets
 
