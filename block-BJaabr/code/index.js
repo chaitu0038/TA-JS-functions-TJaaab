@@ -208,12 +208,22 @@ let num = function num(x , y) => {
 };
 
 // - Write an Arrow Function with curly brackets
+let num = function num(x , y) => {
+  if (x > y) {
+    return true;
+  } else (x < y) {
+    return false;
+  }
+};
 
 // - Execute the function
+num(x , y)
 
 // - Execute the function and store the return value in a variable
+let num = x , y;
 
 // - What is the typeof returnValue
+//"number"
 
 /* 6.
 
