@@ -94,3 +94,9 @@ function getFactorial(num) {
   return final;
 }
 
+
+function hello() {
+  return 'Hello World!';
+}
+let message = hello();
+alert(typeof typeof message);
