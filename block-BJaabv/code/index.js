@@ -12,6 +12,7 @@ function calculateDogAge() {
   // Your code goes here
 }
 
+
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
   * [ ] takes 2 arguments: age, number of movies you watch every week. (take 4 weeks per month)
